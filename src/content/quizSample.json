@@ -1,0 +1,842 @@
+[
+ {
+  "id": "s1",
+  "section": "A. Confidence Interval for Population Mean",
+  "chapterTag": "estimation",
+  "q": "A confidence interval for a population mean is primarily used to:",
+  "options": [
+   "Estimate a population parameter using a range of values",
+   "Find the exact population mean",
+   "Calculate the sample size only",
+   "Test whether two variables are independent"
+  ],
+  "answer": 0,
+  "why": "A confidence interval reports a plausible range for an unknown parameter, not a single exact value."
+ },
+ {
+  "id": "s2",
+  "section": "A. Confidence Interval for Population Mean",
+  "chapterTag": "estimation",
+  "q": "When the population standard deviation σ is known, a confidence interval for the population mean is generally constructed using:",
+  "options": [
+   "Chi-square distribution",
+   "Z-distribution",
+   "F-distribution",
+   "Binomial distribution"
+  ],
+  "answer": 1,
+  "why": "With σ known (and a normal sampling distribution), the z-distribution supplies the critical value."
+ },
+ {
+  "id": "s3",
+  "section": "A. Confidence Interval for Population Mean",
+  "chapterTag": "estimation",
+  "q": "A sample has x̄ = 50, σ = 10, and n = 100. For 95% confidence, z = 1.96. What is the margin of error?",
+  "options": [
+   "0.196",
+   "1.96",
+   "5",
+   "19.6"
+  ],
+  "answer": 1,
+  "why": "Margin of error = z·σ/√n = 1.96 × 10/√100 = 1.96 × 1 = 1.96."
+ },
+ {
+  "id": "s4",
+  "section": "A. Confidence Interval for Population Mean",
+  "chapterTag": "estimation",
+  "q": "If the confidence level is increased from 95% to 99%, with everything else unchanged, the confidence interval will generally:",
+  "options": [
+   "Become narrower",
+   "Become wider",
+   "Remain unchanged",
+   "Become zero"
+  ],
+  "answer": 1,
+  "why": "Higher confidence needs a larger critical value, so the interval stretches."
+ },
+ {
+  "id": "s5",
+  "section": "A. Confidence Interval for Population Mean",
+  "chapterTag": "estimation",
+  "q": "Increasing the sample size generally causes a confidence interval to:",
+  "options": [
+   "Become wider",
+   "Become narrower",
+   "Remain unchanged",
+   "Shift toward zero"
+  ],
+  "answer": 1,
+  "why": "Standard error is σ/√n, so a bigger n shrinks it and tightens the interval."
+ },
+ {
+  "id": "s6",
+  "section": "B. Confidence Interval for Population Proportion",
+  "chapterTag": "estimation",
+  "q": "Which statistic is used as the point estimate of population proportion p?",
+  "options": [
+   "x̄",
+   "s",
+   "p̂",
+   "μ"
+  ],
+  "answer": 2,
+  "why": "The sample proportion p̂ estimates the population proportion p."
+ },
+ {
+  "id": "s7",
+  "section": "B. Confidence Interval for Population Proportion",
+  "chapterTag": "estimation",
+  "q": "In a survey of 500 customers, 400 are satisfied. What is the sample proportion?",
+  "options": [
+   "0.20",
+   "0.40",
+   "0.80",
+   "1.25"
+  ],
+  "answer": 2,
+  "why": "p̂ = 400/500 = 0.80."
+ },
+ {
+  "id": "s8",
+  "section": "B. Confidence Interval for Population Proportion",
+  "chapterTag": "estimation",
+  "q": "The estimated standard error of a sample proportion is:",
+  "options": [
+   "√[p̂(1-p̂)/n]",
+   "σ/√n",
+   "s/n",
+   "√(n/p̂)"
+  ],
+  "answer": 0,
+  "why": "SE(p̂) = √[p̂(1-p̂)/n]. The other forms apply to means, not proportions."
+ },
+ {
+  "id": "s9",
+  "section": "B. Confidence Interval for Population Proportion",
+  "chapterTag": "estimation",
+  "q": "A 95% confidence interval for a population proportion is (0.72, 0.80). Which interpretation is appropriate?",
+  "options": [
+   "Exactly 76% of all customers are satisfied",
+   "We are 95% confident that the population proportion lies between 0.72 and 0.80",
+   "95% of customers lie between 0.72 and 0.80",
+   "The probability that every customer is satisfied is 0.95"
+  ],
+  "answer": 1,
+  "why": "Confidence refers to the long-run procedure capturing the population proportion, not to individual customers."
+ },
+ {
+  "id": "s10",
+  "section": "C. Hypothesis Testing for Population Mean",
+  "chapterTag": "hypothesis",
+  "q": "A company claims its average delivery time is 3 days. To test whether the actual mean differs from 3 days, the null hypothesis is:",
+  "options": [
+   "H₀: μ ≠ 3",
+   "H₀: μ = 3",
+   "H₀: μ > 3",
+   "H₀: x̄ = 3"
+  ],
+  "answer": 1,
+  "why": "The null always states the claimed value with equality: μ = 3."
+ },
+ {
+  "id": "s11",
+  "section": "C. Hypothesis Testing for Population Mean",
+  "chapterTag": "hypothesis",
+  "q": "For the previous question, the appropriate alternative hypothesis is:",
+  "options": [
+   "H₁: μ = 3",
+   "H₁: μ < 3",
+   "H₁: μ ≠ 3",
+   "H₁: x̄ = 3"
+  ],
+  "answer": 2,
+  "why": "\"Differs from\" has no direction, so the alternative is two-sided: μ ≠ 3."
+ },
+ {
+  "id": "s12",
+  "section": "C. Hypothesis Testing for Population Mean",
+  "chapterTag": "hypothesis",
+  "q": "If the p-value is 0.02 and α = 0.05, what should we conclude?",
+  "options": [
+   "Fail to reject H₀",
+   "Reject H₀",
+   "Accept H₀ as definitely true",
+   "Increase the sample mean"
+  ],
+  "answer": 1,
+  "why": "p = 0.02 < α = 0.05, so reject H₀. Note we never 'accept' H₀ as proven."
+ },
+ {
+  "id": "s13",
+  "section": "C. Hypothesis Testing for Population Mean",
+  "chapterTag": "hypothesis",
+  "q": "A Type I error occurs when we:",
+  "options": [
+   "Reject a true null hypothesis",
+   "Fail to reject a false null hypothesis",
+   "Reject a false null hypothesis",
+   "Fail to reject a true null hypothesis"
+  ],
+  "answer": 0,
+  "why": "Type I error = rejecting a null that is actually true (a false positive), with probability α."
+ },
+ {
+  "id": "s14",
+  "section": "C. Hypothesis Testing for Population Mean",
+  "chapterTag": "hypothesis",
+  "q": "A Type II error occurs when we:",
+  "options": [
+   "Reject a true H₀",
+   "Fail to reject a false H₀",
+   "Correctly reject H₀",
+   "Correctly fail to reject H₀"
+  ],
+  "answer": 1,
+  "why": "Type II error = failing to reject a null that is actually false (a false negative), with probability β."
+ },
+ {
+  "id": "s15",
+  "section": "D. Difference Between Two Means",
+  "chapterTag": "hypothesis",
+  "q": "To compare the mean delivery times of Warehouse A and Warehouse B, the usual null hypothesis for a two-sided test is:",
+  "options": [
+   "H₀: μA > μB",
+   "H₀: μA < μB",
+   "H₀: μA - μB = 0",
+   "H₀: x̄A = x̄B"
+  ],
+  "answer": 2,
+  "why": "A two-sided comparison of two means is written as a zero difference: μA - μB = 0."
+ },
+ {
+  "id": "s16",
+  "section": "D. Difference Between Two Means",
+  "chapterTag": "hypothesis",
+  "q": "Two samples are independent when:",
+  "options": [
+   "The same subjects are measured twice",
+   "Observations in one group do not correspond to observations in the other group",
+   "There is only one population",
+   "Both sample means are identical"
+  ],
+  "answer": 1,
+  "why": "Independence means the observations in one group are unrelated to those in the other."
+ },
+ {
+  "id": "s17",
+  "section": "D. Difference Between Two Means",
+  "chapterTag": "hypothesis",
+  "q": "A two-mean test gives p = 0.37 at α = 0.05. The correct decision is:",
+  "options": [
+   "Reject H₀",
+   "Fail to reject H₀",
+   "Conclude the means are exactly equal",
+   "Increase α until significant"
+  ],
+  "answer": 1,
+  "why": "p = 0.37 is far above α = 0.05, so there is not enough evidence to reject H₀."
+ },
+ {
+  "id": "s18",
+  "section": "D. Difference Between Two Means",
+  "chapterTag": "hypothesis",
+  "q": "A paired t-test is most appropriate for:",
+  "options": [
+   "Two unrelated warehouses",
+   "The same employees before and after training",
+   "Three different warehouses",
+   "Two categorical variables"
+  ],
+  "answer": 1,
+  "why": "Pairing applies when the same units are measured twice, such as before and after training."
+ },
+ {
+  "id": "s19",
+  "section": "E. Chi-Square Goodness of Fit",
+  "chapterTag": "chi-square",
+  "q": "A chi-square goodness-of-fit test determines whether:",
+  "options": [
+   "Two population means are equal",
+   "An observed categorical distribution matches an expected distribution",
+   "Two numerical variables are correlated",
+   "A population mean equals zero"
+  ],
+  "answer": 1,
+  "why": "Goodness-of-fit compares an observed frequency distribution with an expected one."
+ },
+ {
+  "id": "s20",
+  "section": "E. Chi-Square Goodness of Fit",
+  "chapterTag": "chi-square",
+  "q": "Which expression contributes to a chi-square statistic?",
+  "options": [
+   "(O-E)/E",
+   "(O-E)²/E",
+   "(O+E)/E",
+   "(O-E)²"
+  ],
+  "answer": 1,
+  "why": "Each cell contributes (O-E)²/E, and these are summed over all categories."
+ },
+ {
+  "id": "s21",
+  "section": "E. Chi-Square Goodness of Fit",
+  "chapterTag": "chi-square",
+  "q": "A store expects 400 orders to be equally distributed among four categories. Expected frequency per category is:",
+  "options": [
+   "25",
+   "50",
+   "100",
+   "400"
+  ],
+  "answer": 2,
+  "why": "Equal distribution gives 400/4 = 100 expected orders per category."
+ },
+ {
+  "id": "s22",
+  "section": "E. Chi-Square Goodness of Fit",
+  "chapterTag": "chi-square",
+  "q": "For a goodness-of-fit test with 5 categories and no estimated parameters, degrees of freedom are:",
+  "options": [
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "answer": 1,
+  "why": "df = k - 1 = 5 - 1 = 4 when no parameters are estimated from the data."
+ },
+ {
+  "id": "s23",
+  "section": "F. Chi-Square Test of Independence",
+  "chapterTag": "chi-square",
+  "q": "A chi-square test of independence determines whether:",
+  "options": [
+   "A population mean equals a specified value",
+   "Two categorical variables are associated",
+   "Two numerical variables have equal means",
+   "Three population means are equal"
+  ],
+  "answer": 1,
+  "why": "The test of independence checks whether two categorical variables are associated."
+ },
+ {
+  "id": "s24",
+  "section": "F. Chi-Square Test of Independence",
+  "chapterTag": "chi-square",
+  "q": "To test whether Payment Method and Customer Age Group are associated, use:",
+  "options": [
+   "One-sample t-test",
+   "ANOVA",
+   "Chi-square test of independence",
+   "Z-test for population mean"
+  ],
+  "answer": 2,
+  "why": "Both variables are categorical, so the chi-square test of independence applies."
+ },
+ {
+  "id": "s25",
+  "section": "F. Chi-Square Test of Independence",
+  "chapterTag": "chi-square",
+  "q": "For a 3 × 4 contingency table, degrees of freedom are:",
+  "options": [
+   "6",
+   "7",
+   "12",
+   "5"
+  ],
+  "answer": 0,
+  "why": "df = (r-1)(c-1) = (3-1)(4-1) = 6."
+ },
+ {
+  "id": "s26",
+  "section": "F. Chi-Square Test of Independence",
+  "chapterTag": "chi-square",
+  "q": "Expected frequency for a cell in a contingency table is:",
+  "options": [
+   "(Row total + Column total)/Grand total",
+   "(Row total × Column total)/Grand total",
+   "Grand total/Row total",
+   "Row total × Grand total"
+  ],
+  "answer": 1,
+  "why": "Expected = (Row total × Column total)/Grand total."
+ },
+ {
+  "id": "s27",
+  "section": "G. One-Way ANOVA",
+  "chapterTag": "anova",
+  "q": "One-way ANOVA is primarily used to compare:",
+  "options": [
+   "Exactly two population proportions",
+   "Means of three or more groups",
+   "Two categorical variables",
+   "Variances of two groups only"
+  ],
+  "answer": 1,
+  "why": "ANOVA compares the means of three or more groups in a single test."
+ },
+ {
+  "id": "s28",
+  "section": "G. One-Way ANOVA",
+  "chapterTag": "anova",
+  "q": "For comparing mean delivery times among Standard, Express and Same-Day delivery, the ANOVA null hypothesis is:",
+  "options": [
+   "μ₁ ≠ μ₂ ≠ μ₃",
+   "μ₁ = μ₂ = μ₃",
+   "μ₁ > μ₂ > μ₃",
+   "μ₁ + μ₂ + μ₃ = 0"
+  ],
+  "answer": 1,
+  "why": "The null asserts all group means are equal: μ₁ = μ₂ = μ₃."
+ },
+ {
+  "id": "s29",
+  "section": "G. One-Way ANOVA",
+  "chapterTag": "anova",
+  "q": "ANOVA gives p = 0.003 at α = 0.05. We conclude:",
+  "options": [
+   "All means are definitely different",
+   "All means are equal",
+   "At least one population mean differs",
+   "Exactly two means differ"
+  ],
+  "answer": 2,
+  "why": "A small p-value rejects equality, telling you at least one mean differs — but not which one."
+ },
+ {
+  "id": "s30",
+  "section": "G. One-Way ANOVA",
+  "chapterTag": "anova",
+  "q": "A large ANOVA F-statistic generally indicates:",
+  "options": [
+   "Within-group variation is much larger",
+   "Between-group variation is large relative to within-group variation",
+   "All observations are identical",
+   "Sample sizes are too small"
+  ],
+  "answer": 1,
+  "why": "F is the ratio of between-group to within-group variation, so a large F means group differences dominate."
+ },
+ {
+  "id": "s31",
+  "section": "H. Basics of Matrices and Operations",
+  "chapterTag": "matrices",
+  "q": "If matrix A has 3 rows and 4 columns, its order is:",
+  "options": [
+   "4 × 3",
+   "3 × 4",
+   "3 × 3",
+   "4 × 4"
+  ],
+  "answer": 1,
+  "why": "Order is stated rows × columns, so 3 × 4."
+ },
+ {
+  "id": "s32",
+  "section": "H. Basics of Matrices and Operations",
+  "chapterTag": "matrices",
+  "q": "Two matrices can be added if:",
+  "options": [
+   "Same number of rows only",
+   "Same number of columns only",
+   "They have the same dimensions",
+   "Both are square"
+  ],
+  "answer": 2,
+  "why": "Addition is element-wise, so both matrices must have identical dimensions."
+ },
+ {
+  "id": "s33",
+  "section": "H. Basics of Matrices and Operations",
+  "chapterTag": "matrices",
+  "q": "If A = [[1,2],[3,4]] and B = [[2,1],[0,3]], then A+B is:",
+  "options": [
+   "[[3,3],[3,7]]",
+   "[[2,2],[0,12]]",
+   "[[1,1],[3,1]]",
+   "[[3,2],[3,12]]"
+  ],
+  "answer": 0,
+  "why": "Add element-wise: [[1+2, 2+1],[3+0, 4+3]] = [[3,3],[3,7]]."
+ },
+ {
+  "id": "s34",
+  "section": "H. Basics of Matrices and Operations",
+  "chapterTag": "matrices",
+  "q": "If A is 3 × 4 and B is 4 × 2, the dimension of AB is:",
+  "options": [
+   "4 × 4",
+   "3 × 2",
+   "4 × 3",
+   "2 × 3"
+  ],
+  "answer": 1,
+  "why": "Inner dimensions cancel and the outer ones remain: (3×4)(4×2) → 3 × 2."
+ },
+ {
+  "id": "s35",
+  "section": "H. Basics of Matrices and Operations",
+  "chapterTag": "matrices",
+  "q": "For A(m × n)B(p × q), AB exists when:",
+  "options": [
+   "m = q",
+   "m = p",
+   "n = p",
+   "n = q"
+  ],
+  "answer": 2,
+  "why": "The inner dimensions must match, so n = p."
+ },
+ {
+  "id": "s36",
+  "section": "H. Basics of Matrices and Operations",
+  "chapterTag": "matrices",
+  "q": "Which statement about matrix multiplication is generally true?",
+  "options": [
+   "AB = BA",
+   "AB ≠ BA",
+   "A+B ≠ B+A",
+   "AB = A+B"
+  ],
+  "answer": 1,
+  "why": "Matrix multiplication is not commutative in general, so AB ≠ BA."
+ },
+ {
+  "id": "s37",
+  "section": "H. Basics of Matrices and Operations",
+  "chapterTag": "matrices",
+  "q": "The transpose of [[1,2,3],[4,5,6]] is:",
+  "options": [
+   "[[1,2],[3,4],[5,6]]",
+   "[[1,4],[2,5],[3,6]]",
+   "[[6,5],[4,3],[2,1]]",
+   "The same matrix"
+  ],
+  "answer": 1,
+  "why": "Transposing turns rows into columns: [[1,4],[2,5],[3,6]]."
+ },
+ {
+  "id": "s38",
+  "section": "H. Basics of Matrices and Operations",
+  "chapterTag": "matrices",
+  "q": "For an identity matrix I, which property is correct?",
+  "options": [
+   "AI = I",
+   "AI = A",
+   "AI = 0",
+   "AI = Aᵀ"
+  ],
+  "answer": 1,
+  "why": "The identity is the multiplicative neutral element, so AI = IA = A."
+ },
+ {
+  "id": "s39",
+  "section": "H. Basics of Matrices and Operations",
+  "chapterTag": "matrices",
+  "q": "The determinant of [[2,3],[1,4]] is:",
+  "options": [
+   "5",
+   "8",
+   "11",
+   "2"
+  ],
+  "answer": 0,
+  "why": "det = (2)(4) - (3)(1) = 8 - 3 = 5."
+ },
+ {
+  "id": "s40",
+  "section": "H. Basics of Matrices and Operations",
+  "chapterTag": "matrices",
+  "q": "A square matrix has an inverse if:",
+  "options": [
+   "Its determinant is zero",
+   "Its determinant is nonzero",
+   "All elements are positive",
+   "It is symmetric only"
+  ],
+  "answer": 1,
+  "why": "A matrix is invertible exactly when its determinant is nonzero (non-singular)."
+ },
+ {
+  "id": "s41",
+  "section": "I. Additional Confidence Interval Questions",
+  "chapterTag": "estimation",
+  "q": "A sample of 64 orders has mean fulfillment time 40 hours. Population σ = 8 hours. What is the standard error?",
+  "options": [
+   "8",
+   "4",
+   "1",
+   "0.125"
+  ],
+  "answer": 2,
+  "why": "SE = σ/√n = 8/√64 = 8/8 = 1."
+ },
+ {
+  "id": "s42",
+  "section": "I. Additional Confidence Interval Questions",
+  "chapterTag": "estimation",
+  "q": "Using x̄ = 40, σ = 8, n = 64 and z = 1.96, the approximate 95% confidence interval for μ is:",
+  "options": [
+   "(38.04, 41.96)",
+   "(32.00, 48.00)",
+   "(39.00, 41.00)",
+   "(20.40, 59.60)"
+  ],
+  "answer": 0,
+  "why": "40 ± 1.96 × 1 = (38.04, 41.96)."
+ },
+ {
+  "id": "s43",
+  "section": "I. Additional Confidence Interval Questions",
+  "chapterTag": "estimation",
+  "q": "If population σ is unknown and the sample is small, with an approximately normal population, which distribution is typically used for a mean confidence interval?",
+  "options": [
+   "Normal Z only",
+   "Student's t",
+   "Chi-square",
+   "F"
+  ],
+  "answer": 1,
+  "why": "With σ unknown and a small sample from a roughly normal population, use Student's t."
+ },
+ {
+  "id": "s44",
+  "section": "I. Additional Confidence Interval Questions",
+  "chapterTag": "estimation",
+  "q": "A sample has n = 25. For a one-sample t confidence interval for the mean, the degrees of freedom are:",
+  "options": [
+   "23",
+   "24",
+   "25",
+   "26"
+  ],
+  "answer": 1,
+  "why": "df = n - 1 = 25 - 1 = 24."
+ },
+ {
+  "id": "s45",
+  "section": "I. Additional Confidence Interval Questions",
+  "chapterTag": "estimation",
+  "q": "Which change decreases the margin of error, all else equal?",
+  "options": [
+   "Increasing confidence level",
+   "Decreasing sample size",
+   "Increasing sample size",
+   "Increasing variability"
+  ],
+  "answer": 2,
+  "why": "Margin of error is z·σ/√n, so raising n is the only listed change that shrinks it."
+ },
+ {
+  "id": "s46",
+  "section": "I. Additional Confidence Interval Questions",
+  "chapterTag": "estimation",
+  "q": "A 95% CI for mean delivery time is (2.8, 3.4) days. Is μ = 3.0 compatible with the interval?",
+  "options": [
+   "Yes",
+   "No",
+   "Only at 99% confidence",
+   "Cannot be determined"
+  ],
+  "answer": 0,
+  "why": "3.0 lies inside (2.8, 3.4), so it is a value the data are consistent with."
+ },
+ {
+  "id": "s47",
+  "section": "I. Additional Confidence Interval Questions",
+  "chapterTag": "estimation",
+  "q": "Out of 200 customers, 120 prefer option A. What is p̂?",
+  "options": [
+   "0.40",
+   "0.50",
+   "0.60",
+   "1.67"
+  ],
+  "answer": 2,
+  "why": "p̂ = 120/200 = 0.60."
+ },
+ {
+  "id": "s48",
+  "section": "I. Additional Confidence Interval Questions",
+  "chapterTag": "estimation",
+  "q": "For p̂ = 0.60 and n = 200, the standard error of p̂ is closest to:",
+  "options": [
+   "0.035",
+   "0.12",
+   "0.24",
+   "0.60"
+  ],
+  "answer": 0,
+  "why": "SE = √(0.6 × 0.4/200) = √0.0012 ≈ 0.035."
+ },
+ {
+  "id": "s49",
+  "section": "I. Additional Confidence Interval Questions",
+  "chapterTag": "estimation",
+  "q": "Which statement correctly describes a 95% confidence procedure?",
+  "options": [
+   "95% of observations must fall inside every interval",
+   "In repeated sampling, about 95% of intervals constructed this way capture the true parameter",
+   "The parameter changes from sample to sample",
+   "The sample mean has a 95% probability of being correct"
+  ],
+  "answer": 1,
+  "why": "Confidence is a property of the repeated procedure: about 95% of such intervals capture the true parameter."
+ },
+ {
+  "id": "s50",
+  "section": "I. Additional Confidence Interval Questions",
+  "chapterTag": "estimation",
+  "q": "If the sample variability increases while n and confidence level remain fixed, the confidence interval for μ generally:",
+  "options": [
+   "Narrows",
+   "Widens",
+   "Does not change",
+   "Becomes one-sided"
+  ],
+  "answer": 1,
+  "why": "More variability inflates the standard error, so the interval widens."
+ },
+ {
+  "id": "s51",
+  "section": "J. Additional Hypothesis Testing Questions",
+  "chapterTag": "hypothesis",
+  "q": "A manufacturer claims mean package weight is 500 g. Which hypotheses test whether packages are underfilled on average?",
+  "options": [
+   "H₀: μ=500, H₁: μ<500",
+   "H₀: μ<500, H₁: μ=500",
+   "H₀: μ=500, H₁: μ≠500",
+   "H₀: μ>500, H₁: μ<500"
+  ],
+  "answer": 0,
+  "why": "'Underfilled' is directional and below the claim: H₀: μ = 500 against H₁: μ < 500."
+ },
+ {
+  "id": "s52",
+  "section": "J. Additional Hypothesis Testing Questions",
+  "chapterTag": "hypothesis",
+  "q": "If α = 0.01, this means the researcher is willing to tolerate approximately what maximum probability of a Type I error?",
+  "options": [
+   "1%",
+   "5%",
+   "10%",
+   "99%"
+  ],
+  "answer": 0,
+  "why": "α is the Type I error rate, so α = 0.01 means about a 1% chance."
+ },
+ {
+  "id": "s53",
+  "section": "J. Additional Hypothesis Testing Questions",
+  "chapterTag": "hypothesis",
+  "q": "If p-value = 0.08 and α = 0.05, the decision is:",
+  "options": [
+   "Reject H₀",
+   "Fail to reject H₀",
+   "Accept H₁ with certainty",
+   "Type I error occurred"
+  ],
+  "answer": 1,
+  "why": "p = 0.08 > α = 0.05, so there is insufficient evidence to reject H₀."
+ },
+ {
+  "id": "s54",
+  "section": "J. Additional Hypothesis Testing Questions",
+  "chapterTag": "hypothesis",
+  "q": "A test statistic measures:",
+  "options": [
+   "The size of the population",
+   "How far the sample evidence is from the null value in standardized terms",
+   "The confidence level only",
+   "The exact probability H₀ is true"
+  ],
+  "answer": 1,
+  "why": "A test statistic expresses the distance between sample evidence and the null value in standard-error units."
+ },
+ {
+  "id": "s55",
+  "section": "J. Additional Hypothesis Testing Questions",
+  "chapterTag": "hypothesis",
+  "q": "For H₁: μ > μ₀, the hypothesis test is:",
+  "options": [
+   "Left-tailed",
+   "Right-tailed",
+   "Two-tailed",
+   "Chi-square only"
+  ],
+  "answer": 1,
+  "why": "A 'greater than' alternative puts the rejection region in the upper tail."
+ },
+ {
+  "id": "s56",
+  "section": "J. Additional Hypothesis Testing Questions",
+  "chapterTag": "hypothesis",
+  "q": "For H₁: μ < μ₀, the hypothesis test is:",
+  "options": [
+   "Left-tailed",
+   "Right-tailed",
+   "Two-tailed",
+   "ANOVA"
+  ],
+  "answer": 0,
+  "why": "A 'less than' alternative puts the rejection region in the lower tail."
+ },
+ {
+  "id": "s57",
+  "section": "J. Additional Hypothesis Testing Questions",
+  "chapterTag": "hypothesis",
+  "q": "For H₁: μ ≠ μ₀, the test is:",
+  "options": [
+   "Left-tailed",
+   "Right-tailed",
+   "Two-tailed",
+   "One-sample proportion only"
+  ],
+  "answer": 2,
+  "why": "A 'not equal' alternative splits the rejection region across both tails."
+ },
+ {
+  "id": "s58",
+  "section": "J. Additional Hypothesis Testing Questions",
+  "chapterTag": "hypothesis",
+  "q": "A sample of 100 deliveries has x̄ = 52 minutes. Under H₀, μ₀ = 50, σ = 10. The Z statistic is:",
+  "options": [
+   "0.2",
+   "2.0",
+   "5.0",
+   "20"
+  ],
+  "answer": 1,
+  "why": "Z = (x̄ - μ₀)/(σ/√n) = (52 - 50)/(10/10) = 2.0."
+ },
+ {
+  "id": "s59",
+  "section": "J. Additional Hypothesis Testing Questions",
+  "chapterTag": "hypothesis",
+  "q": "If a 95% two-sided confidence interval for μ₁-μ₂ does not contain 0, what is the corresponding conclusion at α = 0.05?",
+  "options": [
+   "Fail to reject equality of means",
+   "Reject equality of means",
+   "The means must differ by exactly 1",
+   "No conclusion is possible"
+  ],
+  "answer": 1,
+  "why": "An interval for μ₁-μ₂ excluding 0 matches rejecting equality at the same α."
+ },
+ {
+  "id": "s60",
+  "section": "J. Additional Hypothesis Testing Questions",
+  "chapterTag": "hypothesis",
+  "q": "Statistical significance necessarily means:",
+  "options": [
+   "The effect is practically important",
+   "H₀ has zero probability",
+   "The observed evidence is sufficiently inconsistent with H₀ at the chosen α",
+   "The sample is unbiased"
+  ],
+  "answer": 2,
+  "why": "Significance is a statement about evidence against H₀ at the chosen α — it says nothing about practical importance."
+ }
+]

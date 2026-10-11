@@ -1,0 +1,46 @@
+export default [
+  {
+    title: 'Day 1 — Foundations, probability and distributions',
+    goal: 'Get the descriptive toolkit automatic, then the three distributions that every later test depends on.',
+    items: [
+      { id: 'd1a', time: '20 min', text: 'What statistics is, data types, population vs sample', link: '/ch/intro-data/0' },
+      { id: 'd1a2', time: '30 min', text: 'Mean / median / mode and the effect of outliers and skew', link: '/ch/central-tendency/0' },
+      { id: 'd1b', time: '45 min', text: 'Quartiles, five-number summary, box plot and 1.5×IQR outlier rule. Do the practice-document problems', link: '/ch/quartiles-boxplot/0' },
+      { id: 'd1c', time: '45 min', text: 'Variance, SD with Bessel’s correction, z-scores and the empirical rule', link: '/ch/dispersion/0' },
+      { id: 'd1d', time: '30 min', text: 'Skewness, kurtosis, covariance and correlation', link: '/ch/shape-relationships/0' },
+      { id: 'd1e', time: '45 min', text: 'Probability rules, conditional probability, Bayes', link: '/ch/probability/0' },
+      { id: 'd1e2', time: '30 min', text: 'Random variables, expected value and variance', link: '/ch/random-variables/0' },
+      { id: 'd1f', time: '60 min', text: 'Binomial and Poisson — all Unit 2 problems', link: '/ch/binomial-poisson/0' },
+      { id: 'd1f2', time: '40 min', text: 'Normal distribution, z-scores and the Unit 2 normal problems', link: '/ch/normal/0' },
+      { id: 'd1g', time: '20 min', text: 'Day 1 MCQ round (distribution topics)', link: '/quiz' },
+    ],
+  },
+  {
+    title: 'Day 2 — Inference, tests and matrices',
+    goal: 'Learn the one pattern behind every test: state hypotheses, compute a statistic, compare with a critical value, conclude.',
+    items: [
+      { id: 'd2a', time: '40 min', text: 'Sampling distribution, standard error, Central Limit Theorem', link: '/ch/sampling-clt/0' },
+      { id: 'd2b', time: '45 min', text: 'Confidence intervals for mean (z and t) and proportion', link: '/ch/estimation/0' },
+      { id: 'd2c', time: '60 min', text: 'Hypothesis testing: z/t tests, p-value, Type I / II errors', link: '/ch/hypothesis/0' },
+      { id: 'd2d', time: '30 min', text: 'Two means, paired tests', link: '/ch/two-sample/0' },
+      { id: 'd2e', time: '45 min', text: 'Chi-square goodness of fit and independence', link: '/ch/chi-square/0' },
+      { id: 'd2f', time: '40 min', text: 'One-way ANOVA table and F test', link: '/ch/anova/0' },
+      { id: 'd2g', time: '30 min', text: 'Simple regression and R²', link: '/ch/regression/0' },
+      { id: 'd2g2', time: '25 min', text: 'Matrix basics and operations', link: '/ch/matrices/0' },
+      { id: 'd2h', time: '45 min', text: 'Full timed MCQ exam, then the Corrections page and the Cheat sheet', link: '/quiz' },
+    ],
+  },
+  {
+    title: 'Day 3 (or the second half of Day 2) — Linear algebra, PCA, optimization, Python and the ESA paper',
+    goal: 'The shared notes add a second block of exam topics. Learn the vector and matrix tools, use them for eigenvalues and PCA, then rehearse the ESA sample paper under time.',
+    items: [
+      { id: 'd3a', time: '50 min', text: 'Vectors, dot product, angle, projection, rank and row reduction', link: '/ch/vectors-rank/0' },
+      { id: 'd3b', time: '50 min', text: 'Eigenvalues and eigenvectors: characteristic equation, trace and determinant checks', link: '/ch/eigen/0' },
+      { id: 'd3c', time: '40 min', text: 'Linear transformations: rotation, scaling, reflection, projection and shear', link: '/ch/transformations/0' },
+      { id: 'd3d', time: '50 min', text: 'PCA: centre, covariance matrix, eigen-decomposition, explained variance, projection', link: '/ch/pca/0' },
+      { id: 'd3e', time: '40 min', text: 'Optimization: convexity, gradient descent, Lagrange multipliers', link: '/ch/optimization/0' },
+      { id: 'd3f', time: '45 min', text: 'Python lab: library functions for statistics, probability, linear algebra and PCA', link: '/ch/python-lab/0' },
+      { id: 'd3g', time: '60 min', text: 'ESA sample paper: attempt it under the timer, then check against the worked answers', link: '/ch/esa-practice/0' },
+    ],
+  },
+];
